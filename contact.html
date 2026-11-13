@@ -1,98 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!-- humble-networks-site-v2 | contact.html | created 2026-11-13 00:40 UTC (02:40 SAST). Reason: rebuild to approved design. Replace this line when you change this file. -->
+<html lang="en-ZA">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact | Humble Networks</title>
-<meta name="description" content="Contact Humble Networks for a site survey, a network or website quote, or a support plan.">
-<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Call Humble Networks for quotes, site surveys or tech support.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="assets/site.js" defer></script>
 </head>
 <body>
-<header><div class="wrap">
-  <a class="brand" href="index.html">Humble<em> Networks</em></a>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="services.html">Network</a>
-    <a href="websites.html">Websites</a>
-    <a href="support.html">Support</a>
-    <a href="about.html">About</a>
-    <a class="on" href="contact.html">Contact</a>
-  </nav>
-</div></header>
-<main>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><img src="assets/img/a1-ping-happy.png" alt="" width="44" height="44">Humble Networks</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav aria-label="Main">
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Network</a></li>
+        <li><a href="websites.html">Websites</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="on" aria-current="page" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-call" href="tel:+27749574716">Call sales</a>
+  </div>
+</header>
 
-<div class="page-hero"><div class="wrap">
-  <p class="eyebrow">Contact</p>
-  <h1>Get in touch</h1>
-  <p>Call the right person directly. If you're not sure who to call, start with sales and they'll point you the right way.</p>
-</div></div>
-
-<section>
-  <div class="wrap">
-    <p class="kicker">Call us</p>
-    <h2>Talk to the right person</h2>
-    <div class="persons" style="margin-top:32px">
-      <div class="person">
-        <div class="role">Sales and Marketing</div>
-        <h3 style="margin-top:8px">Dawood Adams</h3>
-        <a class="num" href="tel:+27749574716">+27 74 957 4716</a>
-        <p>Quotes, site surveys, website enquiries and support plans.</p>
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Contact</p>
+        <h1>Talk to us today</h1>
+        <p>For quotes and site surveys, call sales. For a fault or a support question, call tech support.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="tel:+27749574716">Call sales</a>
+          <a class="btn btn-secondary" href="tel:+27793336484">Call tech support</a>
+        </div>
       </div>
-      <div class="person">
-        <div class="role">Tech Support</div>
-        <h3 style="margin-top:8px">Yasin Jones</h3>
-        <a class="num" href="tel:+27793336484">+27 79 333 6484</a>
-        <p>Network troubleshooting and technical questions.</p>
-      </div>
+      <figure class="frame"><img src="assets/img/a15-contact-ping.png" alt="Ping the router leaning in, with a speech bubble holding a wavy cable"></figure>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="alt">
-  <div class="wrap split">
-    <div>
-      <p class="kicker">When you call</p>
-      <h2>What to tell us</h2>
-      <p class="lead" style="margin-bottom:0">A few details help us give you a useful answer on the first call.</p>
+  <section class="band">
+    <div class="wrap grid">
+      <article class="card reveal"><h3>Sales and Marketing</h3><p>Dawood Adams</p><p><a href="tel:+27749574716">+27 74 957 4716</a></p><p>Quotes, site surveys and support plans.</p></article>
+      <article class="card reveal"><h3>Tech Support</h3><p>Yasin Jones</p><p><a href="tel:+27793336484">+27 79 333 6484</a></p><p>Faults, repairs and questions about your network.</p></article>
     </div>
-    <ul class="list">
-      <li>What you need: network, cabling, Wi-Fi, website or support</li>
-      <li>Where it is, or where the work would happen</li>
-      <li>Roughly how many people and devices are involved</li>
-      <li>What's going wrong, or what you want to build</li>
-    </ul>
-  </div>
-</section>
+  </section>
 
-<section>
-  <div class="wrap">
-    <p class="kicker">Next steps</p>
-    <h2>What happens after you call</h2>
-    <div class="steps" style="margin-top:32px">
-      <div class="step"><div class="n">1</div><h3>We call back</h3><p>We'll talk through what you need and ask any questions we have.</p></div>
-      <div class="step"><div class="n">2</div><h3>Survey or quote</h3><p>For larger jobs we visit first. Smaller fixes can often be quoted remotely.</p></div>
-      <div class="step"><div class="n">3</div><h3>A written plan</h3><p>You get a clear plan and quote in writing before any work starts.</p></div>
+  <section class="faq">
+    <div class="wrap">
+      <h2>Questions before you call</h2>
+      <details>
+        <summary>How do I get a price?</summary>
+        <p>Every price is quoted after a site survey or a short call. We do not publish fixed prices, because every network and website is different.</p>
+      </details>
+      <details>
+        <summary>Do you come on site?</summary>
+        <p>Yes, where a visit is needed. Many faults can be started remotely first.</p>
+      </details>
+      <details>
+        <summary>Which areas do you cover?</summary>
+        <p>Tell us where your business is when you call, and we will confirm whether we can help there.</p>
+      </details>
+      <details>
+        <summary>What should I have ready for a survey?</summary>
+        <p>A rough layout of the building, a list of the things that stop working, and your current internet details if you have them.</p>
+      </details>
     </div>
-  </div>
-</section>
-
-<section class="alt">
-  <div class="wrap">
-    <p class="kicker">FAQ</p>
-    <h2>Common questions</h2>
-    <div style="margin-top:32px;max-width:760px">
-      <details><summary>Do you have prices on the website?</summary><p>Not yet. Every job is different, so we quote after we understand what you need. That way you get a price that fits the work.</p></details>
-      <details><summary>Do you work with individuals as well as businesses?</summary><p>Yes. Most of our work is for businesses, but we also help individuals with home and office networks. Tell us what you need when you call.</p></details>
-      <details><summary>Where do you work?</summary><p>Remote help works wherever your network is. On-site work depends on the location, so tell us where you are when you call.</p></details>
-      <details><summary>Can you help with an existing network, not just new installs?</summary><p>Yes. Troubleshooting and support plans are often for networks that are already in place.</p></details>
-    </div>
-  </div>
-</section>
-
+  </section>
 </main>
-<footer><div class="wrap">
-  <div><strong style="color:#fff">Humble Networks</strong><br>Networks and websites, done properly.</div>
-  <div>Sales: Dawood Adams, <a href="tel:+27749574716">+27 74 957 4716</a><br>Tech support: Yasin Jones, <a href="tel:+27793336484">+27 79 333 6484</a></div>
-</div></footer>
+
+<footer class="site-footer">
+  <div class="footer-wave" aria-hidden="true"><svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 C 75 0, 150 40, 225 20 S 375 0, 450 20 S 600 40, 675 20 S 825 0, 900 20 S 1050 40, 1125 20 S 1200 0, 1200 20"/></svg></div>
+  <div class="wrap foot">
+    <div><p class="foot-name">Humble Networks</p><p>Networks and websites for small businesses.</p></div>
+    <div>
+      <p>Dawood Adams, Sales and Marketing<br><a href="tel:+27749574716">+27 74 957 4716</a></p>
+      <p>Yasin Jones, Tech Support<br><a href="tel:+27793336484">+27 79 333 6484</a></p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
