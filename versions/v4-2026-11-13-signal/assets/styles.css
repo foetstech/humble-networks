@@ -23,13 +23,14 @@ section{padding:72px 0}
 .bar{display:flex;align-items:center;gap:18px;padding:10px 0;position:relative}
 .brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-family:"Lilita One",system-ui,sans-serif;font-size:24px}
 .signal-wrap{display:flex;align-items:center;gap:10px;margin-left:auto}
-.signal{display:flex;align-items:flex-end;gap:4px;height:30px}
-.signal i{display:block;width:10px;background:var(--line);border:2px solid var(--ink);border-radius:4px}
-.signal i:nth-child(1){height:10px}
-.signal i:nth-child(2){height:16px}
-.signal i:nth-child(3){height:22px}
-.signal i:nth-child(4){height:30px}
-.signal i.on{background:var(--teal)}
+.signal{position:relative;width:36px;height:30px}
+.signal i{position:absolute;left:50%;bottom:0;box-sizing:border-box;border-radius:50%;border:3px solid transparent;transform:translate(-50%,50%) rotate(-45deg)}
+.signal i:nth-child(1){width:8px;height:8px;border:0;background:var(--line);transform:translate(-50%,50%)}
+.signal i:nth-child(2){width:14px;height:14px;border-top-color:var(--line);border-left-color:var(--line)}
+.signal i:nth-child(3){width:22px;height:22px;border-top-color:var(--line);border-left-color:var(--line)}
+.signal i:nth-child(4){width:30px;height:30px;border-top-color:var(--line);border-left-color:var(--line)}
+.signal i.on{border-top-color:var(--teal);border-left-color:var(--teal)}
+.signal i:nth-child(1).on{background:var(--teal)}
 .signal-cap{font-family:"Lilita One",system-ui,sans-serif;font-size:16px;color:var(--ink);white-space:nowrap}
 .menu{display:flex;gap:4px;list-style:none;margin:0;padding:0}
 .menu a{display:block;padding:8px 12px;color:var(--ink);text-decoration:none;font-weight:700;border-radius:12px}
@@ -105,3 +106,26 @@ a.msg{color:var(--purple);font-weight:700}
   *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* contact cards and footer contacts */
+.contact-card{display:flex;flex-direction:column;gap:10px}
+.contact-card h3{margin:0}
+.contact-note{margin:0}
+.contact-name{margin:0;font-size:15px;opacity:.8}
+.contact-line{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0;color:var(--ink);font-weight:700;font-size:19px}
+.val{user-select:all;overflow-wrap:anywhere}
+.ico-mark{display:inline-flex;width:24px;height:24px;flex:0 0 24px}
+.ico-mark svg{width:24px;height:24px}
+.contact-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.cbtn{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border:3px solid var(--ink);border-radius:14px;background:var(--white);color:var(--ink);font-weight:700;font-size:15px;line-height:1;text-decoration:none;box-shadow:3px 3px 0 var(--ink)}
+.cbtn svg{width:18px;height:18px;flex:0 0 18px}
+.cbtn-wa{background:#25D366}
+.ico-btn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:2px solid var(--paper);border-radius:12px;background:var(--night);color:var(--paper)}
+.ico-btn svg{width:18px;height:18px}
+.site-footer .ico-btn{color:var(--paper)}
+.site-footer .ico-btn.ico-wa{background:#25D366;border-color:#25D366}
+.foot-contacts p{margin:0 0 10px}
+.foot-role{font-family:"Lilita One",system-ui,sans-serif;font-size:20px;color:var(--yellow);margin:0 0 4px}
+.foot-line{display:flex;flex-wrap:wrap;align-items:center;gap:8px;color:var(--paper);font-weight:700}
+.foot-line .ico-mark{width:20px;height:20px;flex-basis:20px}
+.foot-line .ico-mark svg{width:20px;height:20px}
