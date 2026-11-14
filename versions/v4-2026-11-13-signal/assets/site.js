@@ -33,6 +33,7 @@
   var guide = document.querySelector('.guide');
   var say = document.querySelector('.guide-say');
   var chat = guide ? guide.querySelector('.chat') : null;
+  var robot = guide ? guide.querySelector('.robot') : null;
   var sections = document.querySelectorAll('main > section[data-say]');
   var lastLevel = -1;
   var current = -1;
@@ -46,8 +47,8 @@
     { q: 'How much does it cost?', a: 'Every price is quoted after a site survey or a quick chat, so we can see what you actually need.' },
     { q: 'Do you come on site?', a: 'Yes, where a visit is needed. Plenty of faults can be started remotely first.' },
     { q: 'Can you fix my internet remotely?', a: 'Often, yes. We start remotely where we can, and visit when we need to see the equipment.' },
-    { q: 'My internet is down right now. What do I do?', a: 'Message our tech team on WhatsApp straight away. Tell them what’s happening and what changed, and they’ll start from there.', link: TECH, linkLabel: 'Message tech on WhatsApp' },
-    { q: 'How do I book a site survey?', a: 'Message our sales team on WhatsApp and tell them what you need. They’ll find a time that suits you.', link: SALES, linkLabel: 'Contact sales' },
+    { q: 'My internet is down right now. What do I do?', a: 'Contact our tech team straight away. Tell them what’s happening and what changed, and they’ll start from there.', link: TECH, linkLabel: 'Contact support' },
+    { q: 'How do I book a site survey?', a: 'Contact our sales team and tell them what you need. They’ll find a time that suits you.', link: SALES, linkLabel: 'Contact sales' },
     { q: 'What should I have ready for a survey?', a: 'A rough layout of the building, a list of what keeps stopping, and your current internet details if you have them.' },
     { q: 'Do you fix Wi-Fi dead spots?', a: 'Yes. We map the signal, then add access points or move equipment so the signal reaches where your people and customers are.' },
     { q: 'Can you install network cabling?', a: 'Yes, including structured cabling, patch panels and long cable runs between rooms.' },
@@ -120,6 +121,11 @@
         isBot = atEnd;
         guide.classList.toggle('bot', isBot);
       }
+    }
+
+    if (robot) {
+      var fade = Math.min(1, Math.max(0, (0.95 - p) / 0.2));
+      robot.style.opacity = isBot ? '0' : String(fade);
     }
 
     if (guide) {
