@@ -1,4 +1,4 @@
-/* humble-networks-site-v4 | assets/styles.css | edited 2026-11-13 02:40 UTC (04:40 SAST). Reason: added the end-of-page chatbot panel styles and kept the v4 cartoon look. Replace this line when you change this file. */
+/* humble-networks-site-v4 | assets/styles.css | edited 2026-11-14 12:35 UTC (14:35 SAST). Reason: added the end-of-page chatbot panel styles and kept the v4 cartoon look. Replace this line when you change this file. */
 :root{--paper:#F7F5FF;--ink:#15102E;--purple:#7B4DFF;--teal:#00C2C7;--yellow:#FFD60A;--red:#FF3B3B;--kicker:#007A7E;--night:#15102E;--white:#FFFFFF;--line:#E5E1F5}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:96px}
@@ -89,6 +89,7 @@ section{padding:72px 0}
 .soc-btn{background:transparent;border:0;box-shadow:none;padding:0}
 .contact-line .li-btn{margin:0 8px 0 0}
 .wa-link{display:inline-block;line-height:0;margin-right:6px}
+.call-btn{color:var(--ink)}
 .chat-log{display:flex;flex-direction:column;gap:6px;max-height:200px;overflow-y:auto;padding:6px;background:var(--paper);border:2px solid var(--ink);border-radius:14px}
 .msg{max-width:88%;padding:7px 11px;border:2px solid var(--ink);border-radius:14px;font-size:15px;line-height:1.35;background:var(--white);color:var(--ink)}
 .msg.user{align-self:flex-end;background:var(--yellow)}
