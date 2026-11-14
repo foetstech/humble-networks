@@ -1,0 +1,19 @@
+# Humble Networks
+
+> Humble Networks is a small team in Cape Town CBD, South Africa. We install and fix business Wi-Fi and networks, build business websites and online shops, and run monthly support plans. Every price is quoted after a site survey.
+
+## Pages
+
+- [Home](https://foetstech.github.io/humble-networks/index.html): what we do and how it works
+- [Network](https://foetstech.github.io/humble-networks/services.html): business networks, Wi-Fi, cabling and security
+- [Websites](https://foetstech.github.io/humble-networks/websites.html): landing pages, business websites and online shops
+- [Support](https://foetstech.github.io/humble-networks/support.html): monthly support plans
+- [About](https://foetstech.github.io/humble-networks/about.html): who we are
+- [Contact](https://foetstech.github.io/humble-networks/contact.html): sales, support and general enquiries
+
+## Contact
+
+- Sales: sales@humble-networks.co.za, WhatsApp or call 074 957 4716
+- Support: support@humble-networks.co.za, WhatsApp or call 079 333 6484
+- General enquiries: info@humble-networks.co.za
+- Location: Cape Town CBD

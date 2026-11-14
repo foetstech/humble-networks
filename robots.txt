@@ -1,0 +1,30 @@
+# robots.txt | 2026-11-14 | lets search engines and AI assistants read the live site and keeps the old /versions/ copies out of crawling.
+# Parts the owner may change: the Disallow line and the AI crawler list. Add a Sitemap line once a domain and sitemap exist.
+
+User-agent: *
+Allow: /
+Disallow: /versions/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
