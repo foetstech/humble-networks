@@ -73,6 +73,16 @@ section{padding:72px 0}
 .chat-ping{display:block;width:100%;max-width:260px;height:auto;margin:0 auto}
 .li-btn{display:inline-block;margin-left:8px;vertical-align:middle;line-height:0}
 .li-btn svg{width:22px;height:22px;display:block}
+.social-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 22px}
+.soc-btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:3px solid var(--ink);border-radius:12px;background:var(--white);color:var(--ink);font-weight:700;text-decoration:none;box-shadow:3px 3px 0 var(--ink)}
+.soc-btn svg{width:22px;height:22px;display:block}
+.logo-block{margin:24px auto}
+.logo-note{font-size:14px;margin:0 0 10px}
+.logo-strip{display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin:0 0 10px}
+.logo-strip img{height:56px;width:auto;filter:grayscale(1);opacity:.85;transition:filter .2s ease,opacity .2s ease}
+.logo-strip img:hover{filter:none;opacity:1}
+.logo-strip img.logo-full{filter:none;opacity:1}
+.follow{margin:24px auto 0}
 .chat-log{display:flex;flex-direction:column;gap:6px;max-height:200px;overflow-y:auto;padding:6px;background:var(--paper);border:2px solid var(--ink);border-radius:14px}
 .msg{max-width:88%;padding:7px 11px;border:2px solid var(--ink);border-radius:14px;font-size:15px;line-height:1.35;background:var(--white);color:var(--ink)}
 .msg.user{align-self:flex-end;background:var(--yellow)}
