@@ -47,21 +47,21 @@
     { q: 'Do you come on site?', a: 'Yes, where a visit is needed. Plenty of faults can be started remotely first.' },
     { q: 'Can you fix my internet remotely?', a: 'Often, yes. We start remotely where we can, and visit when we need to see the equipment.' },
     { q: 'My internet is down right now. What do I do?', a: 'Message our tech team on WhatsApp straight away. Tell them what’s happening and what changed, and they’ll start from there.', link: TECH, linkLabel: 'Message tech on WhatsApp' },
-    { q: 'How do I book a site survey?', a: 'Message our sales team on WhatsApp and tell them what you need. They’ll find a time that suits you.', link: SALES, linkLabel: 'Message sales on WhatsApp' },
+    { q: 'How do I book a site survey?', a: 'Message our sales team on WhatsApp and tell them what you need. They’ll find a time that suits you.', link: SALES, linkLabel: 'Contact sales' },
     { q: 'What should I have ready for a survey?', a: 'A rough layout of the building, a list of what keeps stopping, and your current internet details if you have them.' },
     { q: 'Do you fix Wi-Fi dead spots?', a: 'Yes. We map the signal, then add access points or move equipment so the signal reaches where your people and customers are.' },
     { q: 'Can you install network cabling?', a: 'Yes, including structured cabling, patch panels and long cable runs between rooms.' },
     { q: 'Do you do network security?', a: 'Yes. We set up firewalls and keep guest and staff networks apart, so one device can’t reach everything.' },
     { q: 'What’s in a support plan?', a: 'Monitoring and maintenance, remote help, and priority response when something important fails.' },
-    { q: 'Is the support plan monthly?', a: 'Yes, it’s a monthly plan. Message us on WhatsApp and we’ll suggest what fits your network.', link: SALES, linkLabel: 'Ask sales on WhatsApp' },
+    { q: 'Is the support plan monthly?', a: 'Yes, it’s a monthly plan. Contact us and we’ll suggest what fits your network.', link: SALES, linkLabel: 'Contact sales' },
     { q: 'Do you build websites?', a: 'Yes. We build landing pages, business websites of three to four pages, and online shops.' },
     { q: 'How long does a website take?', a: 'It depends on what the site needs to do, so we’ll give you a clear timeline after we chat.' },
     { q: 'Do you build online shops?', a: 'Yes. We build a store for your products, with the pages a shopper needs to buy.' },
     { q: 'Do you help home offices too?', a: 'Yes. Most of our work is for small businesses, and we also help home offices get a stable connection for work and calls.' },
-    { q: 'Which areas do you cover?', a: 'Tell us where you’re based on WhatsApp, and we’ll confirm whether we can help there.', link: SALES, linkLabel: 'Tell sales where you’re' },
-    { q: 'Who should I talk to?', a: 'Quotes and site surveys: our sales team. Faults and support: our tech team. Both are on WhatsApp.', link: SALES, linkLabel: 'Sales on WhatsApp', link2: TECH, linkLabel2: 'Tech on WhatsApp' },
-    { q: 'Do you have an office I can visit?', a: 'Message us on WhatsApp and we’ll tell you the best way to meet.', link: SALES, linkLabel: 'Message sales on WhatsApp' },
-    { q: 'Can I pay online?', a: 'Ask us on WhatsApp about payment options. We’ll confirm the details before any work starts.', link: SALES, linkLabel: 'Ask sales on WhatsApp' }
+    { q: 'Which areas do you cover?', a: 'Tell us where you’re based, and we’ll confirm whether we can help there.', link: SALES, linkLabel: 'Tell sales where you’re' },
+    { q: 'Who should I talk to?', a: 'Quotes and site surveys: our sales team. Faults and support: our tech team. Contact either one any time.', link: SALES, linkLabel: 'Contact sales', link2: TECH, linkLabel2: 'Contact support' },
+    { q: 'Do you have an office I can visit?', a: 'Contact us and we’ll tell you the best way to meet.', link: SALES, linkLabel: 'Contact sales' },
+    { q: 'Can I pay online?', a: 'Ask us about payment options. We’ll confirm the details before any work starts.', link: SALES, linkLabel: 'Contact sales' }
   ];
 
   var log = chat ? chat.querySelector('.chat-log') : null;
